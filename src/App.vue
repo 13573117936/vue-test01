@@ -1,19 +1,23 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
+import Template from './basic/template.vue'
+import Reactive from './basic/reactive.vue'
+import Computed from './basic/computed.vue'
+import Conditional from './basic/conditional.vue'
+import List from './basic/list.vue';
+import Model from './basic/model.vue';
+import Watch from './basic/watch.vue';
+import Refs from './basic/refs.vue';
 </script>
-
 <template>
-  <header>
-    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
-
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
-    </div>
-  </header>
-
   <main>
-    <TheWelcome />
+    <Template />
+    <Reactive />
+    <Computed />
+    <Conditional />
+    <List />
+    <Model />
+    <Watch />
+    <Refs />
   </main>
 </template>
 
